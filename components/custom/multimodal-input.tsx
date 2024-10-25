@@ -21,14 +21,14 @@ import { Textarea } from '../ui/textarea';
 
 const suggestedActions = [
   {
-    title: 'What is the weather',
-    label: 'in San Francisco?',
-    action: 'What is the weather in San Francisco?',
+    title: 'I want to know more...',
+    label: 'about mental health risks and the help I can get',
+    action: 'Tell me about mental health risks and how to get help',
   },
   {
-    title: "Answer like I'm 5,",
-    label: 'why is the sky blue?',
-    action: "Answer like I'm 5, why is the sky blue?",
+    title: "I feel depressed, lonely and down.",
+    label: 'What can I do to change this?',
+    action: "I feel depressed, lonely and down. What can I do to change this?",
   },
 ];
 
