@@ -10,6 +10,11 @@ export const models = [
     name: 'gpt-4o-mini',
     description: 'Small model for fast, lightweight tasks',
   },
+  {
+    label: 'HuggingFace Bert',
+    name: 'hf-bert',
+    description: 'Mental health model',
+  },
 ] as const;
 
 export const DEFAULT_MODEL_NAME: Model['name'] = 'gpt-4o';
