@@ -20,21 +20,16 @@ export const Overview = () => {
           <MessageIcon size={32} />
         </p>
         <p>
-          This is an open source Chatbot template built with Next.js and the AI
-          SDK by Vercel. It uses the{' '}
-          <code className="rounded-md bg-muted px-1 py-0.5">streamText</code>{' '}
-          function in the server and the{' '}
-          <code className="rounded-md bg-muted px-1 py-0.5">useChat</code> hook
-          on the client to create a seamless chat experience.
+          Welcome to the Grist chatbot. Please tell me about how you feel today.
         </p>
         <p>
-          You can learn more about the AI SDK by visiting the{' '}
+          You can also learn more about mental health by visiting the{' '}
           <Link
             className="font-medium underline underline-offset-4"
             href="https://sdk.vercel.ai/docs"
             target="_blank"
           >
-            docs
+            site to browse topics or connect with members.
           </Link>
           .
         </p>
